@@ -19,7 +19,7 @@ import java.util.List;
 
 public class InputReader {
 
-    private String filePath = "./src/input.txt";
+    private String filePath = "./src/Helpers/input.txt";
     private List<List<String>> splittedLines = new ArrayList<>();
     private List<String> allLines;
     private List<String> oneLine;

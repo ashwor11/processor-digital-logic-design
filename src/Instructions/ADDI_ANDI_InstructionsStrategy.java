@@ -1,13 +1,14 @@
 package Instructions;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import Helpers.Helper;
 
 public class ADDI_ANDI_InstructionsStrategy implements IInstructionStrategy {
 
     private static final String ADDI_OPCODE = "0101";
     private static final String ANDI_OPCODE = "0110";
-    private static final String UNUSED_SUFFIX = "00";
 
     /*
     4 opcode 17-14
@@ -18,15 +19,15 @@ public class ADDI_ANDI_InstructionsStrategy implements IInstructionStrategy {
      */
 
     @Override
-    public String GenerateBinaryInstruction(ArrayList<String> elements) {
+    public String GenerateBinaryInstruction(List<String> elements) {
 
         StringBuilder binaryString = new StringBuilder(18);
-
-        switch (elements.get(0).toLowerCase()) {
-            case "addi":
+        String str = elements.get(0);
+        switch (str) {
+            case "ADDI":
                 binaryString.append(ADDI_OPCODE);
                 break;
-            case "andi":
+            case "ANDI":
                 binaryString.append(ANDI_OPCODE);
                 break;
             default:
@@ -45,7 +46,6 @@ public class ADDI_ANDI_InstructionsStrategy implements IInstructionStrategy {
                 elements.get(elements.size() - 1), (short) 6
         ));
 
-        binaryString.append(UNUSED_SUFFIX);
 
         return binaryString.toString();
     }

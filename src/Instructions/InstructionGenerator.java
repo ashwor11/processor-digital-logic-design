@@ -1,6 +1,7 @@
 package Instructions;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class InstructionGenerator {
     private IInstructionStrategy strategy;
@@ -13,7 +14,7 @@ public class InstructionGenerator {
         this.strategy = strategy;
     }
 
-    public String generateBinaryInstruction(ArrayList<String> elements){
+    public String generateBinaryInstruction(List<String> elements){
         return strategy.GenerateBinaryInstruction(elements);
     }
 }

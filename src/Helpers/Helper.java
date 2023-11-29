@@ -1,5 +1,8 @@
 package Helpers;
 
+import java.io.*;
+import java.util.ArrayList;
+
 public class Helper {
 
 
@@ -43,6 +46,40 @@ public class Helper {
         }
 
         return str;
+    }
+
+    public static ArrayList<String> convertBinaryInstructionsToHexInstructions(ArrayList<String> instructionsInBinary){
+        ArrayList<String> instructionsInHexadecimal = new ArrayList<>();
+
+        for(String instructionInBinary : instructionsInBinary){
+            int number = Integer.parseInt(instructionInBinary,2);
+            String instructionInHexadecimal = Integer.toHexString(number);
+            while(instructionInHexadecimal.length()<5){
+                instructionInHexadecimal = "0" + instructionInHexadecimal;
+            }
+            instructionsInHexadecimal.add(instructionInHexadecimal);
+        }
+        return  instructionsInHexadecimal;
+    }
+
+    public static void createMemoryFile(ArrayList<String> instructionInHexadecimal){
+
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(new File("v2.0 raw")))) {
+
+
+
+            for (String hexNumber : instructionInHexadecimal) {
+                writer.write(hexNumber + " ");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static byte[] hexStringToByteArray(String s) {
+        return  null;
     }
 
 

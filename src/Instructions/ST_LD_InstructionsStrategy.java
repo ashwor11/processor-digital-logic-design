@@ -1,3 +1,5 @@
+package Instructions;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,8 +36,8 @@ public class ST_LD_InstructionsStrategy implements IInstructionStrategy{
 
     }
 
-   @Override
-    public String GenerateBinaryInstruction(ArrayList<String> elements) {
+    @Override
+    public String GenerateBinaryInstruction(List<String> elements) {
 
         String opCode = generateOpCode(elements.get(0));
         String registerCode = generateRegisterCode(elements.get(1));

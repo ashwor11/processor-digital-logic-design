@@ -1,6 +1,8 @@
 package Instructions;
 
 import java.util.ArrayList;
+import java.util.List;
+
 import Helpers.Helper;
 public class ADD_AND_NAND_NOR_InstructionsStrategy implements IInstructionStrategy{
 
@@ -21,7 +23,7 @@ public class ADD_AND_NAND_NOR_InstructionsStrategy implements IInstructionStrate
 
     // Add R5 R0 R2
     @Override
-    public String GenerateBinaryInstruction(ArrayList<String> elements) {
+    public String GenerateBinaryInstruction(List<String> elements) {
 
         StringBuilder binaryString = new StringBuilder(18);
 

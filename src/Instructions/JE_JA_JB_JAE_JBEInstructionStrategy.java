@@ -3,6 +3,7 @@ package Instructions;
 import Helpers.Helper;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy {
 
@@ -15,11 +16,11 @@ public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy
     private final String SUFFIX = "0000";
 
     @Override
-    public String GenerateBinaryInstruction(ArrayList<String> elements) {
+    public String GenerateBinaryInstruction(List<String> elements) {
 
         String binaryCode = "";
 
-        switch (elements.get(0).toLowerCase()){
+        switch (elements.get(0)){
 
             case "JE":
                 binaryCode += JE_OPCODE;
