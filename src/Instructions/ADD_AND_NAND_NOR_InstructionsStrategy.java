@@ -8,7 +8,7 @@ public class ADD_AND_NAND_NOR_InstructionsStrategy implements IInstructionStrate
     private static final String ANDOPCODE = "0010";
     private static final String NANDOPCODE = "0011";
     private static final String NOROPCODE = "0100";
-
+    private static final String UNUSED_SUFFIX="00";
     //18 bit
 
     /*
@@ -23,19 +23,31 @@ public class ADD_AND_NAND_NOR_InstructionsStrategy implements IInstructionStrate
     @Override
     public String GenerateBinaryInstruction(ArrayList<String> elements) {
 
-        switch (elements.get(0).toLowerCase()){
-            case "add": break;
-
-        }
-
-
         StringBuilder binaryString = new StringBuilder(18);
 
-        binaryString.append(ADDOPCODE);
+        switch (elements.get(0).toLowerCase()){
+            case "add": binaryString.append(ADDOPCODE);
+                break;
+            case "and": binaryString.append(ANDOPCODE);
+                break;
+            case "nand": binaryString.append(NANDOPCODE);
+                break;
+            case "nor":  binaryString.append(NOROPCODE);
+                break;
+            default:
+                System.out.println("Hata");
+                break;
+        }
 
+        for(int i= 1; i<elements.size();i++){
+            binaryString.append(Helper.createBinaryStringForREG_IMM(
+                    elements.get(i),(short)4
+            ));
+        }
 
+        binaryString.append(UNUSED_SUFFIX);
 
-        return null;
+        return binaryString.toString();
 
     }
 

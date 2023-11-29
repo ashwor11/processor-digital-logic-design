@@ -6,6 +6,6 @@ public class JUMPInstructionStrategy implements IInstructionStrategy {
 
     @Override
     public String GenerateBinaryInstruction(ArrayList<String> elements) {
-        Helper
+        return null;
     }
 }
