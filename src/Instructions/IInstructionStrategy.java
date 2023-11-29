@@ -1,3 +1,5 @@
+package Instructions;
+
 import java.util.ArrayList;
 
 public interface IInstructionStrategy {
