@@ -12,6 +12,5 @@ public class JUMPInstructionStrategy implements IInstructionStrategy {
         String pcOffset = Helper.createBinaryStringForPcOffset(elements.get(1),14);
 
         return OPCODE + pcOffset;
-
     }
 }

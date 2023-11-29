@@ -22,6 +22,8 @@ public class Helper {
         while(str.length()<desiredLength){
             str = "0" + str;
         }
+
+
         return str;
     }
 
