@@ -2,7 +2,6 @@ package Instructions;
 
 import Helpers.Helper;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy {
@@ -40,7 +39,7 @@ public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy
                 break;
         }
 
-        String addr10 = Helper.createBinaryStringForREG_IMM(elements.get(1),(short)10);
+        String addr10 = Helper.createBinaryStringForSIGNED(elements.get(1),(short)10);
 
         binaryCode = binaryCode + addr10 + SUFFIX;
 

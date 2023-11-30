@@ -2,7 +2,6 @@ package Instructions;
 
 import Helpers.Helper;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class JUMPInstructionStrategy implements IInstructionStrategy {
@@ -10,7 +9,7 @@ public class JUMPInstructionStrategy implements IInstructionStrategy {
     public final String OPCODE = "0111";
     @Override
     public String GenerateBinaryInstruction(List<String> elements) {
-        String pcOffset = Helper.createBinaryStringForPcOffset(elements.get(1),14);
+        String pcOffset = Helper.createBinaryStringForSIGNED(elements.get(1),14);
 
         return OPCODE + pcOffset;
     }

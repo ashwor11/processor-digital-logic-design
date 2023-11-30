@@ -1,6 +1,5 @@
 package Instructions;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import Helpers.Helper;
@@ -25,13 +24,13 @@ public class ST_LD_InstructionsStrategy implements IInstructionStrategy{
     }
     private String generateRegisterCode(String register){
         String registerCode = "";
-        registerCode = Helper.createBinaryStringForREG_IMM(register, (short)4);
+        registerCode = Helper.createBinaryStringForREG_UNSIGNED(register, (short)4);
         return registerCode;
     }
 
     private String generateAddressBinary(String address) {
         String binaryAddress = "";
-        binaryAddress = Helper.createBinaryStringForREG_IMM(address, (short)10);
+        binaryAddress = Helper.createBinaryStringForREG_UNSIGNED(address, (short)10);
         return binaryAddress;
 
     }

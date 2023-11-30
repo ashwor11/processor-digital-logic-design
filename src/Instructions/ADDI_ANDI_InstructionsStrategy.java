@@ -1,6 +1,5 @@
 package Instructions;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import Helpers.Helper;
@@ -36,13 +35,13 @@ public class ADDI_ANDI_InstructionsStrategy implements IInstructionStrategy {
         }
 
         for (int i = 1; i < elements.size() - 1; i++) {
-            binaryString.append(Helper.createBinaryStringForREG_IMM(
+            binaryString.append(Helper.createBinaryStringForREG_UNSIGNED(
                     elements.get(i), (short) 4
             ));
         }
 
         // Assuming the last element is the immediate value
-        binaryString.append(Helper.createBinaryStringForREG_IMM(
+        binaryString.append(Helper.createBinaryStringForSIGNED(
                 elements.get(elements.size() - 1), (short) 6
         ));
 

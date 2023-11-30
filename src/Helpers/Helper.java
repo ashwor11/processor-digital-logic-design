@@ -7,7 +7,7 @@ public class Helper {
 
 
     //Usable for register and immediate values
-    public static String createBinaryStringForREG_IMM(String str,short desiredLength){
+    public static String createBinaryStringForREG_UNSIGNED(String str, short desiredLength){
 
         str = str.toLowerCase();
         boolean flag = str.contains("r");
@@ -30,7 +30,7 @@ public class Helper {
         return str;
     }
 
-    public static String createBinaryStringForPcOffset(String str,int desiredLength){
+    public static String createBinaryStringForSIGNED(String str, int desiredLength){
         str = str.toLowerCase();
 
         //immediate

@@ -1,6 +1,5 @@
 package Instructions;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import Helpers.Helper;
@@ -42,7 +41,7 @@ public class ADD_AND_NAND_NOR_InstructionsStrategy implements IInstructionStrate
         }
 
         for(int i= 1; i<elements.size();i++){
-            binaryString.append(Helper.createBinaryStringForREG_IMM(
+            binaryString.append(Helper.createBinaryStringForREG_UNSIGNED(
                     elements.get(i),(short)4
             ));
         }
