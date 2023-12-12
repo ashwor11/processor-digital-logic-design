@@ -65,9 +65,9 @@ public class Helper {
     public static void createMemoryFile(ArrayList<String> instructionInHexadecimal){
 
 
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(new File("v2.0 raw")))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(new File("instructionsInHex.txt")))) {
 
-
+            writer.write("v2.0 raw\n");
 
             for (String hexNumber : instructionInHexadecimal) {
                 writer.write(hexNumber + " ");
