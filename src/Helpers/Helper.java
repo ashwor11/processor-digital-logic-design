@@ -36,6 +36,9 @@ public class Helper {
         //immediate
 
         str = Integer.toBinaryString(Integer.parseInt(str));
+        if(str.length() == 32){
+            str = str.substring(32-desiredLength,32);
+        }
 
 
         while(str.length()<desiredLength){

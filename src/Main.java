@@ -14,6 +14,8 @@ public class Main {
 
         ArrayList<String> instructionsInBinary = new ArrayList<>();
 
+        
+
         while(reader.isFileOver() == false) {
             List<String> line = reader.getNextSplittedLine();
 

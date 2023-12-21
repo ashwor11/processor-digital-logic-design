@@ -12,7 +12,7 @@ public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy
     private final String JAE_OPCODE = "1110";
     private final String JBE_OPCODE = "1111";
 
-    private final String SUFFIX = "0000";
+    private final String SUFFIX = "000";
 
     @Override
     public String GenerateBinaryInstruction(List<String> elements) {
@@ -28,7 +28,7 @@ public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy
             case "JA":
                 binaryCode += JA_OPCODE;
                 break;
-            case "JBO":
+            case "JB":
                 binaryCode += JBO_OPCODE;
                 break;
             case "JAE":
@@ -39,7 +39,7 @@ public class JE_JA_JB_JAE_JBEInstructionStrategy implements IInstructionStrategy
                 break;
         }
 
-        String addr10 = Helper.createBinaryStringForSIGNED(elements.get(1),(short)10);
+        String addr10 = Helper.createBinaryStringForSIGNED(elements.get(1),(short)11);
 
         binaryCode = binaryCode + addr10 + SUFFIX;
 
