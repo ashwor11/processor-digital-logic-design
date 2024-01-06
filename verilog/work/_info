@@ -1,0 +1,230 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Kerim/Desktop/processor-digital-logic-design
+vALU
+Z0 !s110 1704498636
+!i10b 1
+!s100 kE4oLGb_Ib5NzWc>eTW541
+IcHH7z0E5TNiWohlPDd3gC0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog
+w1704498292
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALU.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1704498636.000000
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_Testbench
+R0
+!i10b 1
+!s100 7UkOEWX]9b7Vbel[8DAUe0
+I03;4JP<e1]B=O`[3V4gYH1
+R1
+R2
+w1704498599
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALUtest.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALUtest.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALUtest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/ALUtest.v|
+!i113 1
+R5
+R6
+n@a@l@u_@testbench
+vComparator
+!s110 1704531470
+!i10b 1
+!s100 koZlmW0^1cmhQdEP5eV072
+IkfXk1ndeYIOZJczVT:al03
+R1
+R2
+w1704531304
+Z7 8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/Comparator.v
+Z8 FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/Comparator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704531470.000000
+Z9 !s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/Comparator.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/Comparator.v|
+!i113 1
+R5
+R6
+n@comparator
+vComparator_2sComplement
+!s110 1704531587
+!i10b 1
+!s100 NDgB3<PTdX<:8h`z;JPje0
+InRiN9B4C_EgLaDAEL2FE22
+R1
+R2
+w1704531582
+R7
+R8
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704531587.000000
+R9
+R10
+!i113 1
+R5
+R6
+n@comparator_2s@complement
+vFSM
+!s110 1704537966
+!i10b 1
+!s100 bFYKaikQeh4]<]fT_Wmgd1
+I2?HL`5Kg@eUhPo1bNNfE>2
+R1
+R2
+w1704537945
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704537966.000000
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v|
+!i113 1
+R5
+R6
+n@f@s@m
+vFSM_tb
+!s110 1704537972
+!i10b 1
+!s100 ?M`En:5YE?ch:Njl0c>ni2
+IJ@2HH1`D_LB4H5<?WCMd;0
+R1
+R2
+w1704537467
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM_test.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM_test.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704537972.000000
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM_test.v|
+!i113 1
+R5
+R6
+n@f@s@m_tb
+vPC_Counter
+!s110 1704499861
+!i10b 1
+!s100 bkeM14NoC4FAd_3[>:o]^3
+I:@SiWOXQ=kL2<PU4jiAmV1
+R1
+R2
+w1704499805
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_Counter.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_Counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704499861.000000
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_Counter.v|
+!i113 1
+R5
+R6
+n@p@c_@counter
+vPC_Counter_Testbench
+!s110 1704500657
+!i10b 1
+!s100 ZO59ZY]MDk@RMejczld:A0
+I1_HlAOFMmAVcj2gA8gzA@0
+R1
+R2
+w1704500645
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_CounterTest.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_CounterTest.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1704500657.000000
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_CounterTest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/PC_CounterTest.v|
+!i113 1
+R5
+R6
+n@p@c_@counter_@testbench
+vRegisterFile
+R0
+!i10b 1
+!s100 D1;ha>7iViSZ[>QBh02^]3
+IeVg7387e2SR]Dno=F?9dd1
+R1
+R2
+w1704497652
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/RegisterFile.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/RegisterFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/RegisterFile.v|
+!i113 1
+R5
+R6
+n@register@file
+vRegisterFile_tb
+R0
+!i10b 1
+!s100 L[:1W6mW]oXgzU>0d3hVK0
+IAVnJ6e4=AZoT5bCZcRIg_3
+R1
+R2
+w1704497416
+8C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/registerfiletest.v
+FC:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/registerfiletest.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/registerfiletest.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/registerfiletest.v|
+!i113 1
+R5
+R6
+n@register@file_tb

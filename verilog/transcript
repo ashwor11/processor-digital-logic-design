@@ -1,0 +1,384 @@
+# Compile of Comparator.v was successful.
+# Compile of Comparator.v was successful.
+# Compile of FSM.v failed with 8 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+
+
+
+
+
+
+
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 4 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 3 errors.
+# Compile of FSM.v failed with 2 errors.
+
+
+
+# Compile of FSM.v failed with 2 errors.
+# Compile of FSM.v failed with 1 errors.
+# Compile of FSM.v was successful.
+# Compile of FSM_test.v failed with 1 errors.
+# Compile of FSM_test.v was successful.
+vsim -gui work.FSM_tb
+# vsim -gui work.FSM_tb 
+# Start time: 13:38:07 on Jan 06,2024
+# Loading work.FSM_tb
+# Loading work.FSM
+add wave -position end  sim:/FSM_tb/enableWrite
+add wave -position end  sim:/FSM_tb/enablePC
+add wave -position end  sim:/FSM_tb/enableJUMP
+add wave -position end  sim:/FSM_tb/enableCMPJUMP
+add wave -position end  sim:/FSM_tb/nextInstruction
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -out
+# Break key hit
+# Break in Module FSM at C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v line 124
+step -out
+# Break key hit
+# Break in Module FSM at C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v line 124
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+step -over
+# Break key hit
+# Break in Module FSM at C:/Users/Kerim/Desktop/processor-digital-logic-design/verilog/FSM.v line 124
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+# Break key hit
+vsim -gui work.FSM_tb
+# End time: 13:42:27 on Jan 06,2024, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 0
+# vsim -gui work.FSM_tb 
+# Start time: 13:42:27 on Jan 06,2024
+# Loading work.FSM_tb
+# Loading work.FSM
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+add wave -position end  sim:/FSM_tb/nextInstruction
+add wave -position end  sim:/FSM_tb/enableCMPJUMP
+add wave -position end  sim:/FSM_tb/enablePC
+add wave -position end  sim:/FSM_tb/enableJUMP
+add wave -position end  sim:/FSM_tb/enableWrite
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over -current
+step -over -current
+step -over -current
+step -over -current
+step -over -current
+step -over -current
+step -over -current
+step -over -current
+step -out -current
+# Requested step location(s) not found!
+step -over
+step -over
+step -over
+quit -sim
+# End time: 13:46:04 on Jan 06,2024, Elapsed time: 0:03:37
+# Errors: 1, Warnings: 0
+# Compile of FSM.v was successful.
+# Compile of FSM_test.v was successful.
+vsim -gui work.FSM_tb
+# vsim -gui work.FSM_tb 
+# Start time: 13:46:20 on Jan 06,2024
+# Loading work.FSM_tb
+# Loading work.FSM
+add wave -position end  sim:/FSM_tb/enableWrite
+add wave -position end  sim:/FSM_tb/enablePC
+add wave -position end  sim:/FSM_tb/enableJUMP
+add wave -position end  sim:/FSM_tb/enableCMPJUMP
+add wave -position end  sim:/FSM_tb/nextInstruction
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+# Next activity is in 5 ps.
+step -over
+step -over
+step -over
+quit -sim
+# Compile of FSM.v failed with 2 errors.
+# End time: 14:01:15 on Jan 06,2024, Elapsed time: 0:14:55
+# Errors: 0, Warnings: 0
+# Compile of FSM.v failed with 2 errors.
